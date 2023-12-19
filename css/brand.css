@@ -1,0 +1,64 @@
+.weblogo{
+    width: 65px;
+}
+.navbar{
+    background: #00000082!important;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    color: #fff!important;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.moblogo{
+    display: none;
+}
+.cccc {
+    background-image: url(https://pn-paul.netlify.app/image/brands.jpg);
+    width: 100%;
+    height: 630px;
+    background-position: center;
+    background-size: cover;
+}
+.brand{
+    font-family: prague;
+    font-size: 1.5cm;
+    margin-top: 4cm;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px)
+{
+    /* .img123{
+        width: 100%;
+        margin-top: 20px;
+
+    } */
+
+.moblogo{
+    display: block;
+
+}
+.weblogo{
+    display:none;
+}
+.navbar{
+    background: #fbaa19!important;
+}
+}
